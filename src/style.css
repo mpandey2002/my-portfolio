@@ -779,22 +779,38 @@ footer .social_links-items {
   /* ====  Hero section End !!! ==== */
 
   /* ==== About Section ==== */
+  /* ==== About Section ==== */
+.about_content {
+  display: flex;
+  flex-direction: column-reverse;
+  margin-top: 1rem;
+}
+
+.aboutMe p {
+  font-size: 0.875rem;
+  color: #e2e8f0;
+  line-height: 1.5rem;
+}
+
+.aboutMe h3 {
+  font-size: 1.3rem;
+}
+
+.about_img img {
+  width: 16rem;
+}
+
+/* Mobile view: Image on top */
+@media (max-width: 768px) {
   .about_content {
-    display: flex;
-    flex-direction: column-reverse;
-    margin-top: 1rem;
+    flex-direction: column; /* Change direction to column for mobile */
   }
-  .aboutMe p {
-    font-size: 0.875rem;
-    color: #e2e8f0;
-    line-height: 1.5rem;
-  }
-  .aboutMe h3 {
-    font-size: 1.3rem;
-  }
+
   .about_img img {
-    width: 16rem;
+    width: 100%; /* Adjust image width to fit mobile screen */
   }
+}
+
   /* ==== About Section End !!! ==== */
 
   /* ==== Projects ===== */
