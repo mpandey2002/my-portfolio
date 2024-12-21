@@ -19,6 +19,10 @@
   --font-family: "Poppins", sans-serif;
 }
 
+
+
+
+
 /* -------- Base Style --------- */
 
 * {
@@ -265,7 +269,8 @@ section {
 }
 /* Hero Image */
 .hero_img {
-  width: 40%;
+  width: 80%;
+  
   animation: floatImage 4s ease-in-out infinite;
 }
 @keyframes floatImage {
@@ -338,8 +343,14 @@ section {
 /* About Img */
 
 .about_img img {
-  width: 24rem;
+  width: 24rem; /* Sets the width */
+  height: 30rem; /* Ensures the height matches the width */
+  border: 2px solid #ccc; /* Adds a border */
+  border-radius: 20px; /* Rounds the corners (adjust as needed) */
+  object-fit: cover; /* Ensures the image scales properly without distortion */
 }
+
+
 
 /* ==== Interest ==== */
 .interest_section {

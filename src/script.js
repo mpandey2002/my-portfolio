@@ -212,13 +212,13 @@ document.addEventListener("DOMContentLoaded", function () {
   const isMobile = /Mobi|Android/i.test(navigator.userAgent);
 
   if (isMobile) {
-    emailButton1.href = "mailto:pragatipingole24@gmail.com";
-    emailButton2.href = "mailto:pragatipingole24@gmail.com";
+    emailButton1.href = "manishkpandey2002@gmail.com";
+    emailButton2.href = "manishkpandey2002@gmail.com";
   } else {
     emailButton1.href =
-      "https://mail.google.com/mail/?view=cm&fs=1&to=pragatipingole24@gmail.com";
+      "https://mail.google.com/mail/?view=cm&fs=1&to=manishkpandey2002@gmail.com";
     emailButton2.href =
-      "https://mail.google.com/mail/?view=cm&fs=1&to=pragatipingole24@gmail.com";
+      "https://mail.google.com/mail/?view=cm&fs=1&to=manishkpandey2002@gmail.com";
   }
 });
 
