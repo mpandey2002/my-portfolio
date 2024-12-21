@@ -343,11 +343,11 @@ section {
 /* About Img */
 
 .about_img img {
-  width: 24rem; /* Sets the width */
-  height: 30rem; /* Ensures the height matches the width */
-  border: 2px solid #ccc; /* Adds a border */
-  border-radius: 20px; /* Rounds the corners (adjust as needed) */
-  object-fit: cover; /* Ensures the image scales properly without distortion */
+  width: 24rem; 
+  height: 30rem; 
+  border: 2px solid #ccc; 
+  border-radius: 20px; 
+  object-fit: cover; 
 }
 
 
