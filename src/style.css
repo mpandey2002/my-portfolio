@@ -3,7 +3,7 @@
 
 /* -------- VARIABLES --------------- */
 
-:root {
+/* :root {
   --gray-200: #e5e7eb;
   --gray-400: #9ca3af;
   --gray-500: #6b7280;
@@ -11,15 +11,34 @@
 
   --dark-900: #323b48;
   --dark-920: #414b5d;
-  --dark-950: #1f242d;
-
+  /* --dark-950: #1f242d; */
+/* --dark-950:#1e2336;
   --text-color: #f9fafb;
   --primary-color: #00eeff;
 
-  --font-family: "Poppins", sans-serif;
-}
+  --font-family: "Poppins", sans-serif; */
 
 
+  :root {
+    --gray-200: #d9e8f6; /* Very light pastel blue */
+    --gray-400: #9fb6d8; /* Soft sky blue */
+    --gray-500: #6d8bb5; /* Calm blue-gray */
+    --gray-700: #45638c; /* Deep blue-gray */
+  
+    --dark-900: #1c2a3a; /* Muted deep navy */
+    --dark-920: #22374b; /* Rich dark blue */
+    --dark-950: #192333; /* Dark midnight blue */
+  
+    --text-color: #f5faff; /* Slightly off-white for better harmony */
+    --primary-color: #009fdc; /* Bright cyan-blue for accents */
+  
+    --font-family: "Poppins", sans-serif;
+  }
+  
+  
+  
+  
+  
 
 
 
